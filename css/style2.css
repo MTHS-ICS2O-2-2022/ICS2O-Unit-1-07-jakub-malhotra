@@ -1,18 +1,18 @@
-/* Created by: Jakub Malhotra
-* Created on: Febuary 2023
-* This file contains the CSS for index.html
+/* Created by: Jakub Malhotra 
+* Created on: April 2023
+* This file contains the CSS for index2.html
 */
 
 /* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
 */
 .mdl-ripple {
-  background: #ff00ea;
+  background: lightcoral;
   opacity: 0.001;
 }
 
 .mdl-layout__header-row {
+  align-items: center;
   justify-content: center;
-  padding: 0;
 }
 
 .mdl-layout__content {
@@ -21,16 +21,13 @@
   padding-top: 15pt;
 }
 
-.mdl-textfield__error {
-  color: rgb(28 221 83);
-}
-
-.page-content {
-  color: white;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.25rem;
-}
-
 body {
-  background-color: cornflowerblue;
+  background-color: lightsalmon;
+}
+
+p {
+  color: blueviolet;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  padding-top: 5pt;
 }
